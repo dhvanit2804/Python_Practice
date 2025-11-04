@@ -1,0 +1,4 @@
+| Method     | Description                      | Example                                  | Output                 |
+| ---------- | -------------------------------- | ---------------------------------------- | ---------------------- |
+| `format()` | Inserts values into placeholders | `"My name is {}".format("Dhvanit")`      | `'My name is Dhvanit'` |
+| f-strings  | Modern way of formatting         | `name = "Dhvanit"; f"My name is {name}"` | `'My name is Dhvanit'` |

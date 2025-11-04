@@ -1,0 +1,7 @@
+| Method         | Description                                  | Example                    | Output |
+| -------------- | -------------------------------------------- | -------------------------- | ------ |
+| `find()`       | Returns index of substring (-1 if not found) | `"hello".find("e")`        | `1`    |
+| `index()`      | Same as find(), but gives error if not found | `"hello".index("e")`       | `1`    |
+| `startswith()` | Checks if string starts with a value         | `"hello".startswith("he")` | `True` |
+| `endswith()`   | Checks if string ends with a value           | `"hello".endswith("o")`    | `True` |
+| `count()`      | Counts occurrences of substring              | `"banana".count("a")`      | `3`    |

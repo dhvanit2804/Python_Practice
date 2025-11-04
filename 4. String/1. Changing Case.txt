@@ -1,0 +1,7 @@
+| Method         | Description                            | Example                   | Output            |
+| -------------- | -------------------------------------- | ------------------------- | ----------------- |
+| `upper()`      | Converts to uppercase                  | `"hello".upper()`         | `'HELLO'`         |
+| `lower()`      | Converts to lowercase                  | `"HELLO".lower()`         | `'hello'`         |
+| `title()`      | Capitalizes first letter of each word  | `"python is fun".title()` | `'Python Is Fun'` |
+| `capitalize()` | Capitalizes first letter of the string | `"python".capitalize()`   | `'Python'`        |
+| `swapcase()`   | Swaps case (upper ↔ lower)             | `"PyThOn".swapcase()`     | `'pYtHoN'`        |

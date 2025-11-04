@@ -1,0 +1,5 @@
+| Method              | Description             | Example                                    | Output            |
+| ------------------- | ----------------------- | ------------------------------------------ | ----------------- |
+| `replace(old, new)` | Replaces substring      | `"hello world".replace("world", "Python")` | `'hello Python'`  |
+| `split()`           | Splits string into list | `"a,b,c".split(",")`                       | `['a', 'b', 'c']` |
+| `join()`            | Joins list into string  | `" ".join(['Hello', 'Python'])`            | `'Hello Python'`  |

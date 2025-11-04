@@ -1,0 +1,9 @@
+| Method      | Description                          | Example                   | Output |
+| ----------- | ------------------------------------ | ------------------------- | ------ |
+| `isalpha()` | True if all characters are alphabets | `"abc".isalpha()`         | `True` |
+| `isdigit()` | True if all characters are digits    | `"123".isdigit()`         | `True` |
+| `isalnum()` | True if alphabets + digits           | `"abc123".isalnum()`      | `True` |
+| `isspace()` | True if only spaces                  | `"   ".isspace()`         | `True` |
+| `islower()` | True if all lowercase                | `"hello".islower()`       | `True` |
+| `isupper()` | True if all uppercase                | `"HELLO".isupper()`       | `True` |
+| `istitle()` | True if Title Case                   | `"Hello World".istitle()` | `True` |

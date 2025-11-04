@@ -1,0 +1,5 @@
+| Method     | Description                    | Example              | Output     |
+| ---------- | ------------------------------ | -------------------- | ---------- |
+| `strip()`  | Removes spaces from both sides | `" hello ".strip()`  | `'hello'`  |
+| `lstrip()` | Removes spaces from left side  | `" hello ".lstrip()` | `'hello '` |
+| `rstrip()` | Removes spaces from right side | `" hello ".rstrip()` | `' hello'` |
