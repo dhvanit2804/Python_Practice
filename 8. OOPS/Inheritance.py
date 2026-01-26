@@ -12,18 +12,32 @@ class B(A):
     def putB(self):
         print("B :", self.b)
 
-class C(B):
+class C(A):
 
     def getC(self, c):
         self.c = c
     def putC(self):
         print("C :", self.c)
 
+class D(A):
 
-b1 = C()
+    def getD(self, d):
+        self.d = d
+    def putD(self):
+        print("D :", self.d)
+
+
+b1 = B()
+c1 = C()
+d1 = D()
+
 b1.getA(10)
 b1.putA()
 b1.getB(20)
 b1.putB()
-b1.getC(30)
-b1.putC()
+
+c1.getC(30)
+c1.putC()
+
+d1.getD(40)
+d1.putD()
