@@ -1,3 +1,7 @@
+'What is a List in Python?'
+'''A list in Python is an ordered, mutable (changeable) collection that can store multiple items in a single variable.
+Lists can contain different data types like integers, strings, floats, and even other lists.'''
+
 marks = [94.4, 88.7, 76.5, 82.3, 91.0]
 print(marks)
 print(type(marks))
