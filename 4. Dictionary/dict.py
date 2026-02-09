@@ -3,18 +3,21 @@
 each key is associated with a value. Dictionaries are unordered, mutable, and 
 indexed by keys. They are defined using curly braces {} or the dict() constructor.'''
 
-student = {
-    'name': 'Dhvanit Parate',
-    'age': 21,
-    'courses': ['Frontend', 'Backend'],
-    'languages': ['Python', 'JavaScript']
-}
+d = {110: "Harshad", 343: "Jainish", 143: "Meet", 155: "Rahul", 167: "Sahil", 767: "Aarti", 228: "Dhvanit"}
+print(d)
+print(d[228])
+print(d.get(767))
+print(d.items())
+print(d.keys())
+print(d.values())
+print(d.pop(110))
+print(d)
+print(d.popitem())
+print(d)
 
-print(student)
-print(type(student))
+d1 = {111: "Yash", 222: "Ayushi", 333: "Bhvya", 444: "Aniket", 555: "Henil"}
+d.update(d1)
+print(d)
 
-print('\nAccessing Values:')
-print(student['name'])          # Accessing value using key
-print(student.get('age'))      # Accessing value using get() method 
-
-print(student['courses'][0])  # Accessing nested value
+for i in d:
+    print(i," : ",d[i])
