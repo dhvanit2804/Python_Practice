@@ -1,0 +1,12 @@
+f = open("tops1.txt","r")
+
+line = f.readline()
+print(line)
+line = f.readline()
+print(line)
+line = f.readline()
+print(line)
+line = f.readline()
+print(line)
+line = f.readline()
+print(line)
