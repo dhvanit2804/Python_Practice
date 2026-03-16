@@ -1,6 +1,6 @@
 'Write a program to find the sum of all elements in a list.'
 
-elements = [89, 55, 74, 75, 58]
+elements = [10, 20, 30, 40]
 
 sum = 0
 

@@ -4,8 +4,8 @@ numbers = [10, 10, 20, 30, 30, 40, 50, 50]
 
 num = []
 
-for n in numbers:
-    if n not in num:
-        num.append(n)
+for i in numbers:
+    if i not in num:
+        num.append(i)
 
 print(num)

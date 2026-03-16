@@ -11,5 +11,5 @@ for i in elements:
     if i < smallest:
         smallest = i
 
-print("Largest Number in List: ",largest)
-print("Smallest Number in List: ",smallest)
+print(largest)
+print(smallest)
